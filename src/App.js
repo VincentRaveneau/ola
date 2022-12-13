@@ -36,7 +36,7 @@ const Picture= styled.img`
   animation: ${rotate} 2s linear infinite;
   padding: 5px;
   width: 300px;
-  @media (min-width: 768px) and (max-width:1000px) {
+  @media (min-width: 768px) and (max-width:1200px) {
     width: 150px;
   }
 `;
@@ -45,7 +45,7 @@ const PictureCPY= styled.img`
   animation: ${rotate} 2s linear infinite;
   padding: 5px;
   width: 400px;
-  @media (min-width: 768px) and (max-width:1000px){
+  @media (min-width: 768px) and (max-width:1200px){
     width: 200px;
   }
 `;
