@@ -29,19 +29,25 @@ const rotate = keyframes`
 const Line = styled.div`
   display: flex;
   justify-content: space-between;
-  width: 70%;
+  width: 60%;
 `
 const Picture= styled.img`
   display: inline-block;
   animation: ${rotate} 2s linear infinite;
   padding: 5px;
   width: 300px;
+  @media (min-width: 768px) and (max-width:1000px) {
+    width: 150px;
+  }
 `;
 const PictureCPY= styled.img`
   display: inline-block;
   animation: ${rotate} 2s linear infinite;
   padding: 5px;
   width: 400px;
+  @media (min-width: 768px) and (max-width:1000px){
+    width: 200px;
+  }
 `;
 
 
