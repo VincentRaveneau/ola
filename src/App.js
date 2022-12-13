@@ -11,7 +11,7 @@ function App() {
         <PictureCPY src='elena.png'/>
         <Picture src='kurwa.JPG' />
         </Line>
-        <h1 style={{fontSize: '100px'}}> Głupa Kurwa</h1>
+        <h1 style={{fontSize: '100px'}}> Głupia Kurwa</h1>
       </header>
     </div>
   );
